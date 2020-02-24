@@ -1,0 +1,27 @@
+.button {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #D1EF31;
+    padding: 5px 20px 5px 20px;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: rgb(21, 255, 0);
+}
+
+.back-button {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.close-button {
+    position: fixed;
+    top: 95%;
+    left: 95%;
+    transform: translate(-95%, -95%);
+}

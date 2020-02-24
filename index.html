@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="/Desktop/Design/Web:UX design/Javascript Summative/node_modules/jquery/dist/jquery.min.js">
+    <link href="./dist/css/app.min.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Oswald:300,400&display=swap" rel="stylesheet">
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+    <div class="hero">
+        <div class="search-area" id="search-area">
+            <div class="logo">
+                <img class="logo" src="Assets/logo.png" alt="logo">
+            </div>
+            <div class="heading">
+                <h1>ACCOMMODATION SEARCH ENGINE</h1>
+            </div>
+            <div class="search-box-border">
+                <div class="search-box">
+                    <form id="form-value">
+
+                        <select class="select-city" id="city">
+                            <option disabled selected value="0">Please select city</option>
+                            <option value="1">Auckland</option>
+                            <option value="2">Christchurch</option>
+                        </select>
+
+                        <select class="select-guests" id="guests">
+                            <option disabled selected value="0">How many guests?</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+
+                        <select class="select-nights" id="nights">
+                            <option disabled selected value="0">How many nights?</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+
+                        <button type="submit" class="button" id="submit">SEARCH</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="search-results-heading" id="sr-heading">
+            <h1>SEARCH RESULTS</h1>
+        </div>
+        <div class="back-button">
+            <button class="button" id="back-button">Back</button>
+        </div>
+        <div id="app" class="app">
+        </div>
+        <div class="bottom-padding" id="bottom-padding"></div>
+
+        <!-- MODAL -->
+
+        <div class="modal-area" id="modal-area">
+            <div class="modal" id="modal">
+                <div data-close-button class="modal-body"></div>
+                <button class="close-button">&times;</button>
+                <img class="image-area" id="modal-image" alt="menu">
+            </div>
+
+        </div>
+        <div id="overlay"></div>
+
+    </div>
+</body>
+
+</html>

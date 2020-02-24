@@ -1,0 +1,119 @@
+.app {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    margin: 0px 100px 0px 100px;
+
+    .hotel-template {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 20px;
+        margin: 20px 30px 20px 30px;
+        background-color: #191D26;
+        border: 2px solid #8E8EFF;
+        color: white;
+
+        ul {
+            padding: 0px 0px 0px 20px;
+            margin: 10px 0px;
+        }
+
+        .hotel-price-column {
+            display: grid;
+            grid-template-columns: 60% 40%;
+            align-items: baseline;
+            padding-top: 5px;
+        }
+
+        .menu {
+            margin: 5px 0px 0px 0px;
+        }
+
+        h2 {
+            font-family: 'Oswald', sans-serif;
+            font-size: 23px;
+            margin: 10px 0px 0px 0px;
+        }
+
+        h3 {
+            font-family: 'Oswald', sans-serif;
+            font-size: 18px;
+            margin: 10px 0px 0px 0px;
+        }
+
+        li a {
+            font-size: 14px;
+            font-family: sans-serif;
+        }
+
+        .button {
+            margin-top: 10px;
+            font-size: 17px;
+
+            a {
+                text-decoration: none;
+            }
+        }
+    }
+
+    .hotel-image {
+        width: 100%;
+        padding-bottom: 5px;
+    }
+}
+
+.search-results-heading {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 20px;
+    padding: 20px 30px 20px 30px;
+    margin: auto;
+    margin-top: 75px;
+    margin-bottom: 20px;
+    h1 {
+        font-family: 'Fjalla One', sans-serif;
+        margin: 0px;    
+        font-size: 50px;
+    }
+}
+
+@include desktopmin {
+    .app {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin: 0px 150px 0px 150px;
+    }
+}
+
+@include tablet {
+    .app {
+        display: grid;
+        grid-template-columns: 100%;
+        margin: 0px 150px 0px 150px;
+    }
+}
+
+@include tabletmin {
+    .app {
+        display: grid;
+        grid-template-columns: 100%;
+        margin: 0px 100px 0px 100px;
+    }
+}
+
+@include mobile {
+    .app {
+        display: grid;
+        grid-template-columns: 100%;
+        margin: 0px 20px 0px 20px;
+    }
+
+    .search-results-heading {
+        margin-top: 40px; 
+        h1 {
+            font-family: 'Fjalla One', sans-serif;   
+            font-size: 30px;
+        }
+    }
+}

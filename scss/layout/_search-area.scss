@@ -1,0 +1,139 @@
+.hotel-image {
+    width: 20%;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.select-city {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px;
+    width: 100%;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+    padding: 40px 0px 40px 0px;
+
+    h1 {
+        margin: 0px;
+        font-size: 40px;
+    }
+}
+
+.search-box-border {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // text-align: center;
+    background-color: #191D26;
+    padding: 25px 0px 25px 0px;
+    border: 2px solid #8E8EFF;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 35%;
+}
+
+.search-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    select {
+        background-image: url("../../assets/carat-down-swiss.svg");
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: 25px;
+        border: 0px;
+        border-radius: 0px;
+        cursor: pointer;
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        padding: 5px 40px 5px 20px;
+        margin-bottom: 3px;
+        color: #555555;
+        background-color: #e4e4e4;
+        font-family: 'Oswald', sans-serif;
+        letter-spacing: 0.3px;
+        font-size: 18px;
+        font-weight: 300;
+    }
+
+    select:hover {
+        border: 1px solid rgb(21, 255, 0);
+        background-color: white;
+    }
+
+}
+
+.modal-hero {
+    display: flex;
+}
+
+@include desktopmin {
+    .search-box-border {
+        width: 40%;
+    }
+}
+
+@include tablet {
+
+    .logo {
+        width: 90%;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .heading {
+        h1 {
+            font-size: 30px;
+        }
+    }
+
+    .search-box {
+        display: grid;
+        grid-template-columns: 100%;
+        margin: 0px 20px 0px 20px;
+    }
+
+    select {
+        width: 100%;
+    }
+
+    .search-box-border {
+        width: 50%;
+    }
+}
+
+@include tabletmin {
+    .search-box-border {
+        width: 50%;
+    }
+
+}
+
+@include mobile {
+    .search-box-border {
+        width: 70%;
+    }
+
+    .heading {
+
+        padding: 20px 0px 30px 0px;
+        h1 {
+            font-size: 25px;
+        }
+    }
+}

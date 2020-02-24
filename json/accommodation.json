@@ -1,0 +1,202 @@
+{
+    "accommodation": [
+        {
+            "id": 1,
+            "imgSource": "Assets/seaside-resort-01.png",
+            "name": "Seaside Resport",
+            "price": "128.00",
+            "capacity": 2,
+            "type": "hotel",
+            "features": ["Queen bed", "Swimming pool", "Breakfast included"],
+            "menuImgSource": "Assets/Menu-08.png",
+            "city": "1"
+        },
+        {
+            "id": 2,
+            "imgSource": "Assets/canyon-hotel-02.png",
+            "name": "Canyon Hotel",
+            "price": "98.00",
+            "capacity": 2,
+            "type": "hotel",
+            "features": ["Queen bed", "Spa pool", "Lunch included"],
+            "menuImgSource": "Assets/Menu-01.png",
+            "city": "1"
+        },
+        {
+            "id": 3,
+            "imgSource": "Assets/sunset-hotel-03.png",
+            "name": "Sunset Hotel",
+            "price": "92.00",
+            "capacity": 2,
+            "type": "hotel",
+            "features": ["Queen bed", "Casino downstairs", "Breakfast and dinner included"],
+            "menuImgSource": "Assets/Menu-09.png",
+            "city": "1"
+        },
+        {
+            "id": 4,
+            "imgSource": "Assets/jimmies-motel-04.png",
+            "name": "Jimmies Motel",
+            "price": "72.00",
+            "capacity": 3,
+            "type": "motel",
+            "features": ["Double bed", "Nearby food court", "Tea and cereal included"],
+            "menuImgSource": "Assets/Menu-Jimmies-02.png",
+            "city": "1"
+        },
+        {
+            "id": 5,
+            "imgSource": "Assets/palms-motel-05.png",
+            "name": "Palms Motel",
+            "price": "73.00",
+            "capacity": 3,
+            "type": "motel",
+            "features": ["Double bed", "Golf course", "Coffee included"],
+            "menuImgSource": "Assets/Menu-palms-03.png",
+            "city": "1"
+        },
+        {
+            "id": 6,
+            "imgSource": "Assets/desert-motel-06.png",
+            "name": "Desert Motel",
+            "price": "72.00",
+            "capacity": 3,
+            "type": "motel",
+            "features": ["Double bed", "Plenty of sand", "Great place for tanning"],
+            "menuImgSource": "Assets/Menu-desert-04.png",
+            "city": "1"
+        },
+        {
+            "id": 7,
+            "imgSource": "Assets/hostel-07.png",
+            "name": "Circus Hostel",
+            "price": "22.00",
+            "capacity": 4,
+            "type": "hostel",
+            "features": ["Shared dorms", "Cool bar", "Cheap and easy!"],
+            "menuImgSource": "Assets/Menu-Circus-05.png",
+            "city": "1"
+        },
+        {
+            "id": 8,
+            "imgSource": "Assets/hostel-08.png",
+            "name": "Wombats Hostel",
+            "price": "18.00",
+            "capacity": 4,
+            "type": "hostel",
+            "features": ["Shared & private dorms", "Central location", "Affordable"],
+            "menuImgSource": "Assets/Menu-Wombats-17.png",
+            "city": "1"
+        },
+        {
+            "id": 9,
+            "imgSource": "Assets/hostel-09.png",
+            "name": "CBD Hostel",
+            "price": "20.00",
+            "capacity": 4,
+            "type": "hostel",
+            "features": ["Double bed", "Plenty of sand", "Great place for tanning"],
+            "menuImgSource": "Assets/Menu-CBD-18.png",
+            "city": "1"
+        },
+        {
+            "id": 10,
+            "imgSource": "Assets/seaside-resort-01.png",
+            "name": "Brighton Resort",
+            "price": "128.00",
+            "capacity": 2,
+            "type": "hotel",
+            "features": ["Queen bed", "Swimming pool", "Breakfast included"],
+            "menuImgSource": "Assets/Menu-brighton-10.png",
+            "city": "2"
+        },
+        {
+            "id": 11,
+            "imgSource": "Assets/canyon-hotel-02.png",
+            "name": "Christchurch Hotel",
+            "price": "98.00",
+            "capacity": 2,
+            "type": "hotel",
+            "features": ["Queen bed", "Spa pool", "Lunch included"],
+            "menuImgSource": "Assets/Menu-christchurch-11.png",
+            "city": "2"
+        },
+        {
+            "id": 12,
+            "imgSource": "Assets/sunset-hotel-03.png",
+            "name": "Garden City Hotel",
+            "price": "92.00",
+            "capacity": 2,
+            "type": "hotel",
+            "features": ["Queen bed", "Casino downstairs", "Breakfast and dinner included"],
+            "menuImgSource": "Assets/Menu-garden-12.png",
+            "city": "2"
+        },
+        {
+            "id": 13,
+            "imgSource": "Assets/jimmies-motel-04.png",
+            "name": "Redwood Motel",
+            "price": "72.00",
+            "capacity": 3,
+            "type": "motel",
+            "features": ["Double bed", "Nearby food court", "Tea and cereal included"],
+            "menuImgSource": "Assets/Menu-redwood-14.png",
+            "city": "2"
+        },
+        {
+            "id": 14,
+            "imgSource": "Assets/palms-motel-05.png",
+            "name": "Riccarton Motel",
+            "price": "73.00",
+            "capacity": 3,
+            "type": "motel",
+            "features": ["Double bed", "Golf course", "Coffee included"],
+            "menuImgSource": "Assets/Menu-riccarton-07.png",
+            "city": "2"
+        },
+        {
+            "id": 15,
+            "imgSource": "Assets/desert-motel-06.png",
+            "name": "Hornby Motel",
+            "price": "72.00",
+            "capacity": 3,
+            "type": "motel",
+            "features": ["Double bed", "Plenty of sand", "Great place for tanning"],
+            "menuImgSource": "Assets/Menu-hornby-06.png",
+            "city": "2"
+        },
+        {
+            "id": 16,
+            "imgSource": "Assets/hostel-07.png",
+            "name": "Scribes Hostel",
+            "price": "22.00",
+            "capacity": 4,
+            "type": "hostel",
+            "features": ["Shared dorms", "Cool bar", "Cheap and easy!"],
+            "menuImgSource": "Assets/Menu-scribe-16.png",
+            "city": "2"
+        },
+        {
+            "id": 17,
+            "imgSource": "Assets/hostel-08.png",
+            "name": "Crusaders Hostel",
+            "price": "18.00",
+            "capacity": 4,
+            "type": "hostel",
+            "features": ["Shared & private dorms", "Central location", "Affordable"],
+            "menuImgSource": "Assets/Menu.crusaders-13.png",
+            "city": "2"
+        },
+        {
+            "id": 18,
+            "imgSource": "Assets/hostel-09.png",
+            "name": "Linwood Hostel",
+            "price": "20.00",
+            "capacity": 4,
+            "type": "hostel",
+            "features": ["Double bed", "Plenty of sand", "Great place for tanning"],
+            "menuImgSource": "Assets/Menu-linwood-15.png",
+            "city": "2"
+        }
+    ] 
+}

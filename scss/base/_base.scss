@@ -1,0 +1,27 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: rgb(38, 45, 59);
+    background: linear-gradient(90deg, rgba(38, 45, 59, 1) 0%, rgba(38, 45, 59, 1) 65%, rgba(7, 62, 73, 1) 100%);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.search-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+.bottom-padding {
+    padding-bottom: 75px;
+}
