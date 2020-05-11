@@ -8,7 +8,7 @@
             "capacity": 2,
             "type": "hotel",
             "features": ["Queen bed", "Swimming pool", "Breakfast included"],
-            "menuImgSource": "Assets/Menu-08.jpg",
+            "menuImgSource": "Assets/Menus-08.jpg",
             "city": "1"
         },
         {
@@ -19,7 +19,7 @@
             "capacity": 2,
             "type": "hotel",
             "features": ["Queen bed", "Spa pool", "Lunch included"],
-            "menuImgSource": "Assets/Menu-01.jpg",
+            "menuImgSource": "Assets/Menus-01.jpg",
             "city": "1"
         },
         {
@@ -30,7 +30,7 @@
             "capacity": 2,
             "type": "hotel",
             "features": ["Queen bed", "Casino downstairs", "Breakfast and dinner included"],
-            "menuImgSource": "Assets/Menu-09.jpg",
+            "menuImgSource": "Assets/Menus-09.jpg",
             "city": "1"
         },
         {
@@ -41,7 +41,7 @@
             "capacity": 3,
             "type": "motel",
             "features": ["Double bed", "Nearby food court", "Tea and cereal included"],
-            "menuImgSource": "Assets/Menu-02.jpg",
+            "menuImgSource": "Assets/Menus-02.jpg",
             "city": "1"
         },
         {
@@ -52,7 +52,7 @@
             "capacity": 3,
             "type": "motel",
             "features": ["Double bed", "Golf course", "Coffee included"],
-            "menuImgSource": "Assets/Menu-03.jpg",
+            "menuImgSource": "Assets/Menus-03.jpg",
             "city": "1"
         },
         {
@@ -63,7 +63,7 @@
             "capacity": 3,
             "type": "motel",
             "features": ["Double bed", "Plenty of sand", "Great place for tanning"],
-            "menuImgSource": "Assets/Menu-04.jpg",
+            "menuImgSource": "Assets/Menus-04.jpg",
             "city": "1"
         },
         {
@@ -74,7 +74,7 @@
             "capacity": 4,
             "type": "hostel",
             "features": ["Shared dorms", "Cool bar", "Cheap and easy!"],
-            "menuImgSource": "Assets/Menu-05.jpg",
+            "menuImgSource": "Assets/Menus-05.jpg",
             "city": "1"
         },
         {
@@ -85,7 +85,7 @@
             "capacity": 4,
             "type": "hostel",
             "features": ["Shared & private dorms", "Central location", "Affordable"],
-            "menuImgSource": "Assets/Menu-17.jpg",
+            "menuImgSource": "Assets/Menus-17.jpg",
             "city": "1"
         },
         {
@@ -96,7 +96,7 @@
             "capacity": 4,
             "type": "hostel",
             "features": ["Double bed", "Plenty of sand", "Great place for tanning"],
-            "menuImgSource": "Assets/Menu-18.jpg",
+            "menuImgSource": "Assets/Menus-18.jpg",
             "city": "1"
         },
         {
@@ -107,7 +107,7 @@
             "capacity": 2,
             "type": "hotel",
             "features": ["Queen bed", "Swimming pool", "Breakfast included"],
-            "menuImgSource": "Assets/Menu-10.jpg",
+            "menuImgSource": "Assets/Menus-10.jpg",
             "city": "2"
         },
         {
@@ -118,7 +118,7 @@
             "capacity": 2,
             "type": "hotel",
             "features": ["Queen bed", "Spa pool", "Lunch included"],
-            "menuImgSource": "Assets/Menu-11.jpg",
+            "menuImgSource": "Assets/Menus-11.jpg",
             "city": "2"
         },
         {
@@ -129,7 +129,7 @@
             "capacity": 2,
             "type": "hotel",
             "features": ["Queen bed", "Casino downstairs", "Breakfast and dinner included"],
-            "menuImgSource": "Assets/Menu-12.jpg",
+            "menuImgSource": "Assets/Menus-12.jpg",
             "city": "2"
         },
         {
@@ -140,7 +140,7 @@
             "capacity": 3,
             "type": "motel",
             "features": ["Double bed", "Nearby food court", "Tea and cereal included"],
-            "menuImgSource": "Assets/Menu-14.jpg",
+            "menuImgSource": "Assets/Menus-14.jpg",
             "city": "2"
         },
         {
@@ -151,7 +151,7 @@
             "capacity": 3,
             "type": "motel",
             "features": ["Double bed", "Golf course", "Coffee included"],
-            "menuImgSource": "Assets/Menu-07.jpg",
+            "menuImgSource": "Assets/Menus-07.jpg",
             "city": "2"
         },
         {
@@ -162,7 +162,7 @@
             "capacity": 3,
             "type": "motel",
             "features": ["Double bed", "Plenty of sand", "Great place for tanning"],
-            "menuImgSource": "Assets/Menu-06.jpg",
+            "menuImgSource": "Assets/Menus-06.jpg",
             "city": "2"
         },
         {
@@ -173,7 +173,7 @@
             "capacity": 4,
             "type": "hostel",
             "features": ["Shared dorms", "Cool bar", "Cheap and easy!"],
-            "menuImgSource": "Assets/Menu-16.jpg",
+            "menuImgSource": "Assets/Menus-16.jpg",
             "city": "2"
         },
         {
@@ -184,7 +184,7 @@
             "capacity": 4,
             "type": "hostel",
             "features": ["Shared & private dorms", "Central location", "Affordable"],
-            "menuImgSource": "Assets/Menu-13.jpg",
+            "menuImgSource": "Assets/Menus-13.jpg",
             "city": "2"
         },
         {
@@ -195,7 +195,7 @@
             "capacity": 4,
             "type": "hostel",
             "features": ["Double bed", "Plenty of sand", "Great place for tanning"],
-            "menuImgSource": "Assets/Menu-15.jpg",
+            "menuImgSource": "Assets/Menus-15.jpg",
             "city": "2"
         }
     ] 
