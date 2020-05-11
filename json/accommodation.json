@@ -41,7 +41,7 @@
             "capacity": 3,
             "type": "motel",
             "features": ["Double bed", "Nearby food court", "Tea and cereal included"],
-            "menuImgSource": "Assets/Menu-Jimmies-02.jpg",
+            "menuImgSource": "Assets/Menu-02.jpg",
             "city": "1"
         },
         {
@@ -52,7 +52,7 @@
             "capacity": 3,
             "type": "motel",
             "features": ["Double bed", "Golf course", "Coffee included"],
-            "menuImgSource": "Assets/Menu-palms-03.jpg",
+            "menuImgSource": "Assets/Menu-03.jpg",
             "city": "1"
         },
         {
@@ -63,7 +63,7 @@
             "capacity": 3,
             "type": "motel",
             "features": ["Double bed", "Plenty of sand", "Great place for tanning"],
-            "menuImgSource": "Assets/Menu-desert-04.jpg",
+            "menuImgSource": "Assets/Menu-04.jpg",
             "city": "1"
         },
         {
@@ -74,7 +74,7 @@
             "capacity": 4,
             "type": "hostel",
             "features": ["Shared dorms", "Cool bar", "Cheap and easy!"],
-            "menuImgSource": "Assets/Menu-Circus-05.jpg",
+            "menuImgSource": "Assets/Menu-05.jpg",
             "city": "1"
         },
         {
@@ -85,7 +85,7 @@
             "capacity": 4,
             "type": "hostel",
             "features": ["Shared & private dorms", "Central location", "Affordable"],
-            "menuImgSource": "Assets/Menu-Wombats-17.jpg",
+            "menuImgSource": "Assets/Menu-17.jpg",
             "city": "1"
         },
         {
@@ -96,7 +96,7 @@
             "capacity": 4,
             "type": "hostel",
             "features": ["Double bed", "Plenty of sand", "Great place for tanning"],
-            "menuImgSource": "Assets/Menu-CBD-18.jpg",
+            "menuImgSource": "Assets/Menu-18.jpg",
             "city": "1"
         },
         {
@@ -107,7 +107,7 @@
             "capacity": 2,
             "type": "hotel",
             "features": ["Queen bed", "Swimming pool", "Breakfast included"],
-            "menuImgSource": "Assets/Menu-brighton-10.jpg",
+            "menuImgSource": "Assets/Menu-10.jpg",
             "city": "2"
         },
         {
@@ -118,7 +118,7 @@
             "capacity": 2,
             "type": "hotel",
             "features": ["Queen bed", "Spa pool", "Lunch included"],
-            "menuImgSource": "Assets/Menu-christchurch-11.jpg",
+            "menuImgSource": "Assets/Menu-11.jpg",
             "city": "2"
         },
         {
@@ -129,7 +129,7 @@
             "capacity": 2,
             "type": "hotel",
             "features": ["Queen bed", "Casino downstairs", "Breakfast and dinner included"],
-            "menuImgSource": "Assets/Menu-garden-12.jpg",
+            "menuImgSource": "Assets/Menu-12.jpg",
             "city": "2"
         },
         {
@@ -140,7 +140,7 @@
             "capacity": 3,
             "type": "motel",
             "features": ["Double bed", "Nearby food court", "Tea and cereal included"],
-            "menuImgSource": "Assets/Menu-redwood-14.jpg",
+            "menuImgSource": "Assets/Menu-14.jpg",
             "city": "2"
         },
         {
@@ -151,7 +151,7 @@
             "capacity": 3,
             "type": "motel",
             "features": ["Double bed", "Golf course", "Coffee included"],
-            "menuImgSource": "Assets/Menu-riccarton-07.jpg",
+            "menuImgSource": "Assets/Menu-07.jpg",
             "city": "2"
         },
         {
@@ -162,7 +162,7 @@
             "capacity": 3,
             "type": "motel",
             "features": ["Double bed", "Plenty of sand", "Great place for tanning"],
-            "menuImgSource": "Assets/Menu-hornby-06.jpg",
+            "menuImgSource": "Assets/Menu-06.jpg",
             "city": "2"
         },
         {
@@ -173,7 +173,7 @@
             "capacity": 4,
             "type": "hostel",
             "features": ["Shared dorms", "Cool bar", "Cheap and easy!"],
-            "menuImgSource": "Assets/Menu-scribe-16.jpg",
+            "menuImgSource": "Assets/Menu-16.jpg",
             "city": "2"
         },
         {
@@ -184,7 +184,7 @@
             "capacity": 4,
             "type": "hostel",
             "features": ["Shared & private dorms", "Central location", "Affordable"],
-            "menuImgSource": "Assets/Menu.crusaders-13.jpg",
+            "menuImgSource": "Assets/Menu-13.jpg",
             "city": "2"
         },
         {
@@ -195,7 +195,7 @@
             "capacity": 4,
             "type": "hostel",
             "features": ["Double bed", "Plenty of sand", "Great place for tanning"],
-            "menuImgSource": "Assets/Menu-linwood-15.jpg",
+            "menuImgSource": "Assets/Menu-15.jpg",
             "city": "2"
         }
     ] 
