@@ -102,13 +102,13 @@ html, body {
   justify-content: center;
   align-items: center;
   color: white;
-  font-family: 'Fjalla One', sans-serif;
+  font-family: 'Poppins', sans-serif;
   padding: 40px 0px 40px 0px;
 }
 
 .heading h1 {
   margin: 0px;
-  font-size: 40px;
+  font-size: 2rem;
 }
 
 .search-box-border {
@@ -265,11 +265,13 @@ html, body {
 
 .app .hotel-template .button a {
   text-decoration: none;
+  color: #191D26;
 }
 
 .app .hotel-image {
-  width: 100%;
+  width: 17rem;
   padding-bottom: 5px;
+  color: none;
 }
 
 .results {
@@ -305,9 +307,9 @@ html, body {
 }
 
 .results .header-results .search-results-heading h1 {
-  font-family: 'Fjalla One', sans-serif;
+  font-family: 'Poppins', sans-serif;
   margin: 0px;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 @media (max-width: 1249px) {

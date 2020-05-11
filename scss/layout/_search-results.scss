@@ -54,13 +54,15 @@
 
             a {
                 text-decoration: none;
+                color: #191D26;
             }
         }
     }
 
     .hotel-image {
-        width: 100%;
+        width: 17rem;
         padding-bottom: 5px;
+        color: none;
     }
 }
 
@@ -94,9 +96,9 @@
             margin: auto;
 
             h1 {
-                font-family: 'Fjalla One', sans-serif;
+                font-family: 'Poppins', sans-serif;
                 margin: 0px;
-                font-size: 3rem;
+                font-size: 2rem;
             }
         }
     }
