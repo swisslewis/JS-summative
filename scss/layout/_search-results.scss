@@ -1,16 +1,18 @@
 .app {
     display: grid;
-    grid-template-columns: 33% 33% 33%;
-    margin: 0px 100px 0px 100px;
+    justify-content: center;
+    grid-template-columns: 25rem 25rem 25rem;
+    margin: 0 5rem;
 
     .hotel-template {
         display: flex;
         justify-content: center;
         flex-direction: column;
-        padding: 20px;
-        margin: 20px 30px 20px 30px;
+        padding: 2rem;
+        margin: 2rem;
         background-color: #191D26;
         border: 2px solid #8E8EFF;
+        border-radius: 0.5rem;
         color: white;
 
         ul {
@@ -30,20 +32,20 @@
         }
 
         h2 {
-            font-family: 'Oswald', sans-serif;
-            font-size: 23px;
+            font-family: 'Poppins', sans-serif;
+            font-size: 1.1rem;
             margin: 10px 0px 0px 0px;
         }
 
         h3 {
-            font-family: 'Oswald', sans-serif;
-            font-size: 18px;
+            font-family: 'Poppins', sans-serif;
+            font-size: 0.9rem;
             margin: 10px 0px 0px 0px;
         }
 
         li a {
-            font-size: 14px;
-            font-family: sans-serif;
+            font-size: 0.8rem;
+            font-family: 'Open Sans', sans-serif;
         }
 
         .button {
@@ -62,58 +64,113 @@
     }
 }
 
-.search-results-heading {
-    display: flex;
-    justify-content: center;
-    background-color: rgba(255, 255, 255, 0.9);
-    border-radius: 20px;
-    padding: 20px 30px 20px 30px;
-    margin: auto;
-    margin-top: 75px;
-    margin-bottom: 20px;
-    h1 {
-        font-family: 'Fjalla One', sans-serif;
-        margin: 0px;    
-        font-size: 50px;
+.results {
+    grid-template-columns: 100%;
+
+    .logo {
+        margin-top: 3rem;
+        height: 10rem;
+    }
+
+    .header-results {
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        justify-content: center;
+        margin: 3rem 0 0;
+
+        .back-button {
+            margin: auto;
+        }
+
+        .button {
+            height: 2.5rem;
+            width: 5.5rem;
+            padding: 0;
+        }
+
+        .search-results-heading {
+            color: white;
+            padding: 1.5rem;
+            margin: auto;
+
+            h1 {
+                font-family: 'Fjalla One', sans-serif;
+                margin: 0px;
+                font-size: 3rem;
+            }
+        }
     }
 }
 
 @include desktopmin {
     .app {
         display: grid;
-        grid-template-columns: 50% 50%;
-        margin: 0px 150px 0px 150px;
+        grid-template-columns: 25rem 25rem;
     }
+
+    .results {
+        .header-results {
+            .search-results-heading {
+                h1 {
+                    font-size: 2rem;
+                }
+            }
+        }
+    }
+
 }
 
 @include tablet {
     .app {
         display: grid;
-        grid-template-columns: 100%;
-        margin: 0px 150px 0px 150px;
+        grid-template-columns: 25rem;
+    }
+
+    .results {
+        .logo {
+            display: none;
+        }
+
+        .header-results {
+            display: grid;
+            grid-template-columns: 100%;
+        }
     }
 }
 
 @include tabletmin {
     .app {
         display: grid;
-        grid-template-columns: 100%;
-        margin: 0px 100px 0px 100px;
+        grid-template-columns: 25rem;
+        margin: 0 1rem;
+    }
+
+    .results {
+        .logo {
+            height: 5rem;
+        }
     }
 }
 
 @include mobile {
     .app {
         display: grid;
-        grid-template-columns: 100%;
-        margin: 0px 20px 0px 20px;
+        grid-template-columns: 25rem;
+        margin: 0 2rem;
     }
 
     .search-results-heading {
-        margin-top: 40px; 
+        margin-top: 40px;
+
         h1 {
-            font-family: 'Fjalla One', sans-serif;   
+            font-family: 'Fjalla One', sans-serif;
             font-size: 30px;
+        }
+    }
+
+    .results {
+        .logo {
+            height: 4rem;
         }
     }
 }

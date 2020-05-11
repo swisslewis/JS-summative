@@ -45,7 +45,7 @@ $(document).ready(function () {
         });
         templateHTML += `</ul>
         <button class="button booking"><a href="https://www.newzealand.com/int/accommodation/" target="_blank">Book online</a></button>
-        <button class="button" data-modal-target="#modal" data-image="${hotel.menuImgSource}" id="button-menu">View meal options</button>
+        <button class="button-inverse" data-modal-target="#modal" data-image="${hotel.menuImgSource}" id="button-menu">View meal options</button>
     </div>
     `;
         return templateHTML;
@@ -135,11 +135,11 @@ $(document).ready(function () {
 
     submitEl.addEventListener('click', function () {
         if (selectNights.value < 1 || selectGuests.value < 1 || selectCity.value === null) {
-            alert("No results, because you didn't select all of the options... You're obviously a bit of a ham sandwich");
+            alert("Please fill in the required fields and try again");
         } else {
             filterResults();
             searchArea.style.display = 'none';
-            resultsHeading.style.display = 'flex';
+            resultsHeading.style.display = 'grid';
             accommodationCardClass.style.display = 'grid';
             backButton.style.display = 'flex';
             bottomPadding.style.display = 'flex';

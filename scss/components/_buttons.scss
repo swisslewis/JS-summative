@@ -2,21 +2,46 @@
     display: flex;
     justify-content: center;
     width: 100%;
-    background-color: #D1EF31;
+    background-color: rgb(120, 219, 54);
+    border: none;
+    border-radius: 0.5rem;
     padding: 5px 20px 5px 20px;
-    font-family: 'Fjalla One', sans-serif;
-    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
     cursor: pointer;
 }
 
+.button-inverse {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #191D26;
+    border: 2px solid rgb(120, 219, 54);
+    border-radius: 0.5rem;
+    padding: 5px 20px 5px 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    color: rgb(120, 219, 54);
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
 .button:hover {
-    background-color: rgb(21, 255, 0);
+    background-color: rgb(0, 132, 255);
+}
+
+.button-inverse:hover {
+    background-color: rgb(0, 132, 255);
+    color: black;
 }
 
 .back-button {
     margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
+    border-radius: 20px;
 }
 
 .close-button {

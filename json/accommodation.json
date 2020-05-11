@@ -3,7 +3,7 @@
         {
             "id": 1,
             "imgSource": "Assets/seaside-resort-01.png",
-            "name": "Seaside Resport",
+            "name": "Seaside Resort",
             "price": "128.00",
             "capacity": 2,
             "type": "hotel",
