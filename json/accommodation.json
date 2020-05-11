@@ -2,7 +2,7 @@
     "accommodation": [
         {
             "id": 1,
-            "imgSource": "Assets/seaside-resort-01.png",
+            "imgSource": "Assets/seaside-resort-01.jpg",
             "name": "Seaside Resort",
             "price": "128.00",
             "capacity": 2,
@@ -13,7 +13,7 @@
         },
         {
             "id": 2,
-            "imgSource": "Assets/canyon-hotel-02.png",
+            "imgSource": "Assets/canyon-hotel-02.jpg",
             "name": "Canyon Hotel",
             "price": "98.00",
             "capacity": 2,
@@ -24,7 +24,7 @@
         },
         {
             "id": 3,
-            "imgSource": "Assets/sunset-hotel-03.png",
+            "imgSource": "Assets/sunset-hotel-03.jpg",
             "name": "Sunset Hotel",
             "price": "92.00",
             "capacity": 2,
@@ -35,7 +35,7 @@
         },
         {
             "id": 4,
-            "imgSource": "Assets/jimmies-motel-04.png",
+            "imgSource": "Assets/jimmies-motel-04.jpg",
             "name": "Jimmies Motel",
             "price": "72.00",
             "capacity": 3,
@@ -46,7 +46,7 @@
         },
         {
             "id": 5,
-            "imgSource": "Assets/palms-motel-05.png",
+            "imgSource": "Assets/palms-motel-05.jpg",
             "name": "Palms Motel",
             "price": "73.00",
             "capacity": 3,
@@ -57,7 +57,7 @@
         },
         {
             "id": 6,
-            "imgSource": "Assets/desert-motel-06.png",
+            "imgSource": "Assets/desert-motel-06.jpg",
             "name": "Desert Motel",
             "price": "72.00",
             "capacity": 3,
@@ -68,7 +68,7 @@
         },
         {
             "id": 7,
-            "imgSource": "Assets/hostel-07.png",
+            "imgSource": "Assets/hostel-07.jpg",
             "name": "Circus Hostel",
             "price": "22.00",
             "capacity": 4,
@@ -79,7 +79,7 @@
         },
         {
             "id": 8,
-            "imgSource": "Assets/hostel-08.png",
+            "imgSource": "Assets/hostel-08.jpg",
             "name": "Wombats Hostel",
             "price": "18.00",
             "capacity": 4,
@@ -90,7 +90,7 @@
         },
         {
             "id": 9,
-            "imgSource": "Assets/hostel-09.png",
+            "imgSource": "Assets/hostel-09.jpg",
             "name": "CBD Hostel",
             "price": "20.00",
             "capacity": 4,
@@ -101,7 +101,7 @@
         },
         {
             "id": 10,
-            "imgSource": "Assets/seaside-resort-01.png",
+            "imgSource": "Assets/seaside-resort-01.jpg",
             "name": "Brighton Resort",
             "price": "128.00",
             "capacity": 2,
@@ -112,7 +112,7 @@
         },
         {
             "id": 11,
-            "imgSource": "Assets/canyon-hotel-02.png",
+            "imgSource": "Assets/canyon-hotel-02.jpg",
             "name": "Christchurch Hotel",
             "price": "98.00",
             "capacity": 2,
@@ -123,7 +123,7 @@
         },
         {
             "id": 12,
-            "imgSource": "Assets/sunset-hotel-03.png",
+            "imgSource": "Assets/sunset-hotel-03.jpg",
             "name": "Garden City Hotel",
             "price": "92.00",
             "capacity": 2,
@@ -134,7 +134,7 @@
         },
         {
             "id": 13,
-            "imgSource": "Assets/jimmies-motel-04.png",
+            "imgSource": "Assets/jimmies-motel-04.jpg",
             "name": "Redwood Motel",
             "price": "72.00",
             "capacity": 3,
@@ -145,7 +145,7 @@
         },
         {
             "id": 14,
-            "imgSource": "Assets/palms-motel-05.png",
+            "imgSource": "Assets/palms-motel-05.jpg",
             "name": "Riccarton Motel",
             "price": "73.00",
             "capacity": 3,
@@ -156,7 +156,7 @@
         },
         {
             "id": 15,
-            "imgSource": "Assets/desert-motel-06.png",
+            "imgSource": "Assets/desert-motel-06.jpg",
             "name": "Hornby Motel",
             "price": "72.00",
             "capacity": 3,
@@ -167,7 +167,7 @@
         },
         {
             "id": 16,
-            "imgSource": "Assets/hostel-07.png",
+            "imgSource": "Assets/hostel-07.jpg",
             "name": "Scribes Hostel",
             "price": "22.00",
             "capacity": 4,
@@ -178,7 +178,7 @@
         },
         {
             "id": 17,
-            "imgSource": "Assets/hostel-08.png",
+            "imgSource": "Assets/hostel-08.jpg",
             "name": "Crusaders Hostel",
             "price": "18.00",
             "capacity": 4,
@@ -189,7 +189,7 @@
         },
         {
             "id": 18,
-            "imgSource": "Assets/hostel-09.png",
+            "imgSource": "Assets/hostel-09.jpg",
             "name": "Linwood Hostel",
             "price": "20.00",
             "capacity": 4,
