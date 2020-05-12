@@ -111,6 +111,18 @@ html, body {
   font-size: 2rem;
 }
 
+@media (max-width: 868px) {
+  .heading h1 {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 420px) {
+  .heading h1 {
+    font-size: 1.2rem;
+  }
+}
+
 .search-box-border {
   display: flex;
   justify-content: center;
@@ -172,9 +184,6 @@ html, body {
     margin-top: 10px;
     margin-bottom: 10px;
   }
-  .heading h1 {
-    font-size: 30px;
-  }
   .search-box {
     display: grid;
     grid-template-columns: 100%;
@@ -200,9 +209,6 @@ html, body {
   }
   .heading {
     padding: 20px 0px 30px 0px;
-  }
-  .heading h1 {
-    font-size: 25px;
   }
 }
 
