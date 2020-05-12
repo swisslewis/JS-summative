@@ -30,7 +30,7 @@ html, body {
   display: flex;
   justify-content: center;
   width: 100%;
-  background-color: #78db36;
+  background-color: #70c23a;
   border: none;
   border-radius: 0.5rem;
   padding: 5px 20px 5px 20px;
@@ -44,7 +44,7 @@ html, body {
   display: flex;
   justify-content: center;
   width: 100%;
-  background-color: #191D26;
+  background-color: #273b47;
   border: 2px solid #78db36;
   border-radius: 0.5rem;
   padding: 5px 20px 5px 20px;
@@ -225,8 +225,7 @@ html, body {
   flex-direction: column;
   padding: 2rem;
   margin: 2rem;
-  background-color: #191D26;
-  border: 2px solid #8E8EFF;
+  background-color: #273b47;
   border-radius: 0.5rem;
   color: white;
 }
